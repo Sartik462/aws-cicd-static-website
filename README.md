@@ -1,4 +1,4 @@
-# AWS S3 Static Website Hosting Project
+# CI/CD Static Website Deployment with AWS S3 + AWS CodeBuild + GitHub Integration
 
 ## 📌 Project Title
 Static Website Hosting Using AWS S3
