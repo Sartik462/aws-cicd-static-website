@@ -55,9 +55,6 @@ The static website was successfully deployed and made accessible over the intern
 ### CI/CD Pipeline
 <img width="1363" height="590" alt="CI-CD-Pipeline-Image" src="https://github.com/user-attachments/assets/94c30f8e-cfc0-4e9b-b131-f7607887d688" />
 
-### Website Output
-![Website](screenshots/website.png)
-
 ## 📚 Learning Outcomes
 - Gained hands-on experience with AWS S3  
 - Learned about static website hosting  
