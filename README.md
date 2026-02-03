@@ -17,8 +17,11 @@ This project demonstrates how to host a static website on Amazon Web Services (A
 - AWS S3  
 
 ## ⚙️ AWS Services Used
-- Amazon S3  
-- IAM (for access management)  
+- Amazon S3
+- AWS CodePipeline
+- AWS CodeBuild
+- IAM
+- CloudWatch  
 
 ## 🚀 Features
 - Static website hosted on AWS S3  
@@ -32,6 +35,10 @@ This project demonstrates how to host a static website on Amazon Web Services (A
 - error.html  
 - (images folder, if any)
 
+## Architecture Flow
+-  GitHub → CodePipeline → CodeBuild → S3 → Live Website
+
+
 ## 📝 Implementation Steps
 1. Created an S3 bucket with a unique name
 2. Uploaded website files (HTML, CSS, images)
@@ -42,6 +49,14 @@ This project demonstrates how to host a static website on Amazon Web Services (A
 
 ## 📊 Result
 The static website was successfully deployed and made accessible over the internet using AWS S3.
+
+## 📸 Screenshots
+
+### CI/CD Pipeline
+<img width="1363" height="590" alt="CI-CD-Pipeline-Image" src="https://github.com/user-attachments/assets/94c30f8e-cfc0-4e9b-b131-f7607887d688" />
+
+### Website Output
+![Website](screenshots/website.png)
 
 ## 📚 Learning Outcomes
 - Gained hands-on experience with AWS S3  
